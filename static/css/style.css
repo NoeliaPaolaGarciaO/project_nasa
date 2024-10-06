@@ -1,0 +1,103 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#orrery {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Altura del contenedor */
+    margin: 20px auto;
+    border: 2px solid #fff;
+    overflow: hidden;
+}
+
+.planet {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.8;
+    transition: transform 0.5s; /* Suavizar la animación */
+}
+
+#mercurio {
+    background-color: #7b7b7b; /* Color de Mercurio */
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+#venus {
+    background-color: #e2b735; /* Color de Venus */
+    width: 25px;
+    height: 25px;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+#tierra {
+    background-color: #2e74b5; /* Color de Tierra */
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+#marte {
+    background-color: #d8553b; /* Color de Marte */
+    width: 25px;
+    height: 25px;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+#jupiter {
+    background-color: #d08d6f; /* Color de Júpiter */
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#saturno {
+    background-color: #d1a355; /* Color de Saturno */
+    width: 35px;
+    height: 35px;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+#urano {
+    background-color: #80b1d3; /* Color de Urano */
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+#neptuno {
+    background-color: #4b4e94; /* Color de Neptuno */
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+#asteroide {
+    background-color: #a9a9a9; /* Color del asteroide */
+    width: 15px;
+    height: 15px;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
